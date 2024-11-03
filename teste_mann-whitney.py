@@ -49,8 +49,8 @@ proba_atec = pd.DataFrame({'valores U': x,
 plt.figure(figsize=(10, 6))
 sns.set_style('darkgrid')
 plt.plot(x, y, color="navy")
-plt.axvline(critical_value_lower, color='red', linestyle='--', label=f"Valor crítico inferior (5%) = {critical_value_lower:.2f}")
-plt.axvline(critical_value_upper, color='red', linestyle='--', label=f"Valor crítico superior (5%) = {critical_value_upper:.2f}")
+plt.axvline(critical_value_lower, color='red', linestyle='--', label=f"Valor crítico inferior (2,5%) = {critical_value_lower:.2f}")
+plt.axvline(critical_value_upper, color='red', linestyle='--', label=f"Valor crítico superior (2,5%) = {critical_value_upper:.2f}")
 plt.axvline(u1, color='green', linestyle='--', label=f"Valor do teste U = {u1:.2f}")
 
 plt.title("ATEC | Grupo Controle vs Grupo Placebo\nTeste Estatístico de Mann-Whitney\n", 
@@ -103,8 +103,8 @@ proba_cgi = pd.DataFrame({'valores U': x,
 plt.figure(figsize=(10, 6))
 sns.set_style('darkgrid')
 plt.plot(x, y, color="navy")
-plt.axvline(critical_value_lower, color='red', linestyle='--', label=f"Valor crítico inferior (5%) = {critical_value_lower:.2f}")
-plt.axvline(critical_value_upper, color='red', linestyle='--', label=f"Valor crítico superior (5%) = {critical_value_upper:.2f}")
+plt.axvline(critical_value_lower, color='red', linestyle='--', label=f"Valor crítico inferior (2,5%) = {critical_value_lower:.2f}")
+plt.axvline(critical_value_upper, color='red', linestyle='--', label=f"Valor crítico superior (2,5%) = {critical_value_upper:.2f}")
 plt.axvline(u1, color='green', linestyle='--', label=f"Valor do teste U = {u1:.2f}")
 
 plt.title("CGI | Grupo Controle vs Grupo Placebo\nTeste Estatístico de Mann-Whitney\n", 
