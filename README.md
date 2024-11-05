@@ -1,6 +1,6 @@
 ## Apresentação sobre o Teste de Hipótese Mann-Whitney em Estudos de Fisioterapia
 
-O Teste de Hipótese Mann-Whitney é uma ferramenta estatística não paramétrica amplamente utilizada na pesquisa em fisioterapia, especialmente ao comparar os efeitos de intervenções entre grupos independentes, como um grupo de controle e um grupo placebo. Este teste é particularmente valioso em cenários onde as suposições de normalidade e homogeneidade de variância não são atendidas, permitindo a análise de dados que podem ser ordinais ou que não seguem uma distribuição normal.
+O Teste de Hipótese Mann-Whitney é uma ferramenta estatística não paramétrica amplamente utilizada na pesquisa em fisioterapia, especialmente ao comparar os efeitos de intervenções entre grupos independentes, como um grupo experimental e um grupo placebo. Este teste é particularmente valioso em cenários onde as suposições de normalidade e homogeneidade de variância não são atendidas, permitindo a análise de dados que podem ser ordinais ou que não seguem uma distribuição normal.
 
 Em um experimento de tratamento fisioterapêutico, o Mann-Whitney é utilizado para avaliar se há diferenças significativas nas respostas ao tratamento entre os dois grupos. Por exemplo, ao comparar os efeitos de um novo protocolo de reabilitação em pacientes que receberam o tratamento real com aqueles que receberam um placebo, o teste permite determinar se as medianas das medidas de resultado, como dor, funcionalidade ou qualidade de vida, diferem significativamente entre os grupos.
 
